@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, rgb(96, 96, 245), rgb(196, 196, 244));
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: rgb(200, 228, 238);
+  border: 1px solid black;
+}
+
+.cell {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+    
+}
+
+.full, .block {
+  background-color: blueviolet;
+}
+
+
+.btn-cont {
+  margin-right: auto; 
+  margin-left: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn-cont>button {
+  cursor: pointer;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+  border-spacing: 1.5rem;
+  font-family: 'Righteous', cursive;
+}
+
+.btn-cont>button:hover{
+  background-color:lightpink;
+}
+
+.startGame {
+  padding: 2px;
+}
+
+h2 {
+ text-align: center;
+  font-family: 'Righteous', cursive;
+}
+
+.info {
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  font-family: 'Righteous', cursive;
+}

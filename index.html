@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Tetris</title>
+</head>
+
+<body onload="init()">
+
+    <h2>TETRIS</h2>
+    <table class="board" border="0.5">
+    </table>
+
+    <div class="btn-cont">
+        <button class="startGame" onclick="toggleGame()">Start Game</button>
+        <button id="left">⬅️</button>
+        <button id="right">➡️</button>
+    </div>
+
+    <div class="info">
+        <div>Time: <span class="time">00</span></div>
+        <div>Score: <span class="lines">0</span></div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+
+</html>
